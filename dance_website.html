@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Home | Dance Academy</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.1/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+    
+<script>
+$(document).ready(function () {
+$('[data-toggle="popover"]').popover();
+});
+</script>
+    
+    <style>
+    
+body {
+position: relative;
+    
+}
+#home
+    {
+        background-color: #fff;
+    }
+    
+#about {
+background-color: #fff;
+}
+
+#gallery {
+background-color: #fff;
+    
+}
+
+#benefits {
+background-color: #fff;
+    height: 500;
+}
+
+#courses {
+background-color: #fff;
+}
+
+
+</style>
+    
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="20">
+<!-- top bar -->
+<div class="container-fluid bg-primary">
+<div class="row top-bar">
+<div class="col text-left">
+<span class="text-white">
+<i class="bi bi-envelope"></i>
+dance@mail.com
+</span>
+<span class="text-white">
+<i class="bi bi-phone"></i>
++91123456789
+</span>
+</div>
+<div class="col text-white text-right">
+<span><i class="bi bi-twitter"></i></span>
+<span><i class="bi bi-facebook"></i></span>
+<span><i class="bi bi-instagram"></i></span>
+<span><i class="bi bi-whatsapp"></i></span>
+</div>
+</div>
+</div>
+
+<!-- navbar -->
+<section class="bg-dark sticky-top">
+    
+<nav class="container navbar navbar-expand-md bg-dark navbar-dark">
+<a href="#" class="navbar-brand">
+Dance Academy
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsNavbar">
+<span class="navbar-toggler-icon"></span>
+</button>
+<ul class="nav nav-pills" id="collapsNavbar">
+<li class="nav-item">
+<a class="nav-link active" href="#home">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#gallery">Image Galary</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#benefits">Health benefits</a>
+</li>
+<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dance Course</a>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="#dance1">Aerobics Dance Classes</a>
+<a class="dropdown-item" href="#dance2">Ballet Dance Classes</a>
+<a class="dropdown-item" href="#dance3">Couple Dance Classes</a>
+<a class="dropdown-item" href="#dance4">Bollywood Dance Classes</a>
+</div>
+</li>
+</ul>
+<div class="col text-white text-right">
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal">Contact
+Us</button>
+</div>
+</nav>
+    
+<ul class="breadcrumb">
+<li class="breadcrumb-item"><a href="#">Home</a></li>
+<li class="breadcrumb-item"><a href="#">About</a></li>
+<li class="breadcrumb-item"><a href="#">Contact</a></li>
+</ul>
+</section>
+<div class="modal" id="#home" style="color: black;">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Contact Us</h4>
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+</div>
+<div class="modal-body">
+<form action="#">
+<div class="form-group">
+<label for="name">Full Name:</label>
+<br>
+<input type="text" name="name" id="name" placeholder="Enter your full name"
+style="width: 100%;">
+</div>
+<div class="form-group">
+<label for="name">Email:</label>
+<br>
+<input type="email" name="email" id="email" style="width: 100%;"
+placeholder="Enter your valid Email address">
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+</div>
+
+</div>
+</div>
+</div>
+<br>
+    
+    <div class="container-fluid" id="home">
+<div id="carimg" class="carousel slide" data-ride="carousel">
+
+<ul class="carousel-indicators">
+<li data-target="#carimg" data-slide-to="0" class="active"></li>
+<li data-target="#carimg" data-slide-to="1"></li>
+<li data-target="#carimg" data-slide-to="2"></li>
+</ul>
+
+<div class="container">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img class="img-responsive" src="https://source.unsplash.com/Gsjruc-SfH4" alt="dance1">
+</div>
+<div class="carousel-item">
+<img class="img-responsive" src="https://source.unsplash.com/CGUZHPQ0l2c" alt="dance2">
+</div>
+<div class="carousel-item">
+<img src="https://source.unsplash.com/3ckWUnaCxzc" alt="dance3">
+</div>
+</div>
+</div>
+</div>
+<br>
+  
+    
+
+<div class="container" id="about">
+<h3 class="text-center"><span class="badge badge-primary">About</span></h3>
+<h2 class="text-center">Company's Mission & Vision</h2>
+<br>
+<div class="row">
+<div class="col-sm-6">
+<img src="https://source.unsplash.com/LIEQsu5JuoM" alt="aboutimage" style="width: 100%;">
+</div>
+<div class="col-sm-6">
+<p style="font-size: 1.6em;"><i>Dance</i> is one of the most expressive crafts known to mankind.
+People of all ages and
+preferences admire dance and, people in India are no different. In our country, there is a song and
+dance for virtually every season and reason. Despite so much love towards this art, people are
+averse to
+the idea of taking up dancing as a profession.
+<br>
+<br>
+It is a common perception among people that dancing is not a respectable way of earning a living.
+Fortunately, things have changed a lot since Zenith Dance Academy opened its doors 20 years ago.
+With
+every step we take, with every move we make; we bring our students closer to dance and help to build
+their passion into a profession. Or simply, teach what they love doing the most, i.e., DANCE!!!
+</p>
+</div>
+</div>
+</div>
+
+<br>
+
+<div class="container-fluid" id="gallery">
+<h2 class="text-center">Image Galary</h2>
+<br>
+<marquee behavior="scroll" direction="left" scrollamount="12">
+<div class="row">
+<div class="col-sm-3">
+<img src="https://source.unsplash.com/GRDpPpKczdY" alt="galary1" style="width: 100%;">
+</div>
+<div class="col-sm-3">
+<img src="https://source.unsplash.com/z8Tul255kGg" alt="galary2" style="width: 100%;">
+</div>
+<div class="col-sm-3">
+<img src="https://source.unsplash.com/n-g7dgwNZg4" alt="galary3" style="width: 100%;">
+</div>
+<div class="col-sm-3">
+<img src="https://source.unsplash.com/p6rNTdAPbuk" alt="galary4" style="width: 100%;">
+</div>
+</div>
+</marquee>
+<div class="text-center">
+<button class="btn btn-dark">
+Explore <span class="badge badge-primary">100+</span>
+</button>
+</div>
+</div>
+<br>
+    </div>
+
+<div class="container-fluid" id="benefits">
+<h2 class="text-center">Health benefits of doing Dance</h2>
+<br>
+<div style="font-size: 2em;">
+<p>1. Improved condition of your <mark>heart and lungs</mark></p>
+<p>2. Increased muscular <abbr title="overall strong">strength, endurance and motor fitness</abbr></p>
+<dl>
+<dt>3. Increased</dt>
+<dd>- Aerobic fitness</dd>
+</dl>
+<p>4. Improved <code>muscle tone</code> and <code>strength</code></p>
+<p>5. Stronger bones and reduced risk of <kbd>osteoporosis</kbd></p>
+</div>
+<br>
+</div>
+<br>
+
+<div class="container-fluid" id="courses">
+<h2 class="text-center">Dance Course</h2>
+<br>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th>
+Aerobics Dance Classes
+</th>
+<th>
+Ballet Dance Classes
+</th>
+<th>
+Couple Dance Classes
+</th>
+<th>
+Bollywood Dance Classes
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<img src="https://source.unsplash.com/y0SMHt74yqc" alt="AerobicsDance" style="width: 100%;">
+</td>
+<td>
+<img src="https://source.unsplash.com/nZU76qWy-T8" alt="BalletDance" style="width: 95%;">
+</td>
+<td>
+<img src="https://source.unsplash.com/BcVvVvqiCGA" alt="coupledance" style="width: 102%;">
+</td>
+<td>
+<img src="https://source.unsplash.com/tYpp-eIZH44" alt="BollywoodDance" style="width: 98%;">
+</td>
+</tr>
+<tr>
+<td>
+<a href="#" data-toggle="tooltip" title="Revealing Soon!"><b>Price:</b> XXXXRs</a>
+</td>
+<td>
+<a href="#" data-toggle="tooltip" title="Revealing Soon!"><b>Price:</b> XXXXRs</a>
+</td>
+<td>
+<a href="#" data-toggle="tooltip" title="Revealing Soon!"><b>Price:</b> XXXXRs</a>
+</td>
+<td>
+<a href="#" data-toggle="tooltip" title="Revealing Soon!"><b>Price:</b> XXXXRs</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+    <br><br>
+    
+    <div>
+<ul class="pagination pagination-sm justify-content-center">
+<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+<li class="page-item active"><a class="page-link" href="#">1</a></li>
+<li class="page-item"><a class="page-link" href="#">2</a></li>
+<li class="page-item"><a class="page-link" href="#">3</a></li>
+<li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul>
+</div>
+    
+</body>
+
+</html>
